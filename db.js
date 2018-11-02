@@ -1,7 +1,5 @@
-export default class dataBase {
-  init() {
-    console.log("database initialized!");
-  }
-  confirmLogin(data) {}
-  createNewUser(data) {}
+function init() {
+  console.log("database initialized!");
 }
+function confirmLogin(data) {}
+function createNewUser(data) {}
