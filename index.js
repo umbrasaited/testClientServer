@@ -52,13 +52,3 @@ io.on("connection", function(socket) {
     }
   });
 });
-
-socket.emit("loginas", {
-  username: "deividas",
-  password: "nanana",
-  confirm: "nanana"
-});
-
-socket.on("loginas", function(data) {
-  //asdasdasdasd
-});
