@@ -1,5 +1,8 @@
-function init() {
-  console.log("database initialized!");
+class db {
+  init() {
+    console.log("database initialized!");
+  }
+  confirmLogin(data) {}
+  createNewUser(data) {}
 }
-function confirmLogin(data) {}
-function createNewUser(data) {}
+module.exports = db;
